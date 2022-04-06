@@ -85,6 +85,7 @@ def generate_launch_description():
             executable='map_server',
             name='map_server',
             output='screen',
+            respawn=True,
             parameters=[configured_params],
             remappings=remappings),
 
